@@ -1,0 +1,39 @@
+.openform {
+  width: "300px";
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.2s 0.2s, height 0.2s 0.2s, opacity 0.3s;
+}
+.fadeIn {
+  opacity: 1;
+  width: 450px;
+  height: 600px;
+  transition: width 0.2s, height 0.2s, opacity 0.2s 0.2s;
+}
+.fadeInButton {
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+button {
+  font-size: "15px";
+  border: "1px";
+  width: "80px";
+  height: "40px";
+  background-color: "#3897f0";
+  padding-top: "1%";
+  color: "white";
+  padding-right: "40px";
+  padding-left: "40px";
+  padding-top: "10px";
+
+  padding-bottom: "10px";
+
+  border-radius: "7px";
+  margin-bottom: "10px";
+}

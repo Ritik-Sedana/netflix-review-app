@@ -1,0 +1,72 @@
+import { makeStyles } from "@material-ui/core/styles";
+
+export default makeStyles((theme) => ({
+  root: {
+    "& .MuiTextField-root": {
+      margin: theme.spacing(1),
+    },
+  },
+  Title: {
+    fontSize: "50px",
+    fontFamily: "Billabong",
+    fontWeight: "300",
+  },
+  paper: {
+    padding: theme.spacing(2),
+    borderRadius: "9px",
+  },
+  form: {
+    borderRadius: "20px",
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    backgroundColor: "white",
+  },
+  fileInput: {
+    width: "97%",
+    margin: "10px 0",
+  },
+  buttonSubmit: {
+    fontSize: "15px",
+    border: "1px",
+    width: "80px",
+    height: "40px",
+    backgroundColor: "#3897f0",
+    paddingTop: "1%",
+    color: "white",
+    paddingRight: "40px",
+    paddingLeft: "40px",
+    paddingTop: "10px",
+    paddingBottom: "10px",
+    borderRadius: "7px",
+    marginBottom: "10px",
+  },
+  buttonclear: {
+    fontSize: "15px",
+    marginLeft: "45px",
+    height: "40px",
+    border: "1px",
+    width: "80px",
+    backgroundColor: "secondary",
+    paddingTop: "1%",
+    color: "white",
+    paddingRight: "40px",
+    paddingLeft: "40px",
+    paddingTop: "10px",
+    paddingBottom: "10px",
+    borderRadius: "7px",
+    marginBottom: "10px",
+  },
+  text: {
+    fontSize: "15px",
+    border: " 0.5px solid #bdc3c7",
+    backgroundColor: "#F7F7F7",
+    // paddingTop: "1%",
+    color: "black",
+    // paddingRight: "40px",
+    // paddingLeft: "40px",
+    // paddingTop: "10px",
+    // paddingBottom: " 10px",
+    borderRadius: "7px",
+  },
+}));
